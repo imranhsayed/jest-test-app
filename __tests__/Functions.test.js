@@ -44,3 +44,15 @@ test( 'There is no I in team', () => {
 test( 'Imran should be in usernames', () => {
 	expect( functions.getUserLists() ).toContain( 'Imran' );
 } );
+
+// Promise
+test( 'User fetched name should be Leanne Graham' , () => {
+	// assertions() check if the promise is called or not.
+	expect.assertions( 1 );
+
+	// This will check if the given function returns the expected data
+	return functions.fetchUser()
+		.then( data  => {
+			expect( data.name ).toEqual( 'Leanne Graham' );
+		})
+});
