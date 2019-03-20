@@ -17,6 +17,10 @@ const functions = {
 
 		displayTeamName: ( teamName ) => {
 			return teamName;
+		},
+
+		getUserLists: () => {
+			return [ 'Imran', 'Mark', 'Himanshu' ];
 		}
 	};
 module.exports = functions;

@@ -39,3 +39,8 @@ test( 'Should be under 1600', () => {
 test( 'There is no I in team', () => {
 	expect( functions.displayTeamName( 'Chelsea' ) ).not.toMatch( /I/ );
 } );
+
+// Arrays
+test( 'Imran should be in usernames', () => {
+	expect( functions.getUserLists() ).toContain( 'Imran' );
+} );
