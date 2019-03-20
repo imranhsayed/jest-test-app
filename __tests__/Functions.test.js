@@ -46,13 +46,23 @@ test( 'Imran should be in usernames', () => {
 } );
 
 // Promise
-test( 'User fetched name should be Leanne Graham' , () => {
-	// assertions() check if the promise is called or not.
+// test( 'User fetched name should be Leanne Graham' , () => {
+// 	// The assertions() check if the promise is called or not. 1 means we are passing true.
+// 	expect.assertions( 1 );
+//
+// 	// This will check if the given function returns the expected data
+// 	return functions.fetchUser()
+// 		.then( data  => {
+// 			expect( data.name ).toEqual( 'Leanne Graham' );
+// 		});
+// });
+
+// Async
+test( 'User fetched name should be Leanne Graham', async() => {
+	// The assertions() check if the promise is called or not. 1 means we are passing true.
 	expect.assertions( 1 );
 
-	// This will check if the given function returns the expected data
-	return functions.fetchUser()
-		.then( data  => {
-			expect( data.name ).toEqual( 'Leanne Graham' );
-		})
-});
+	const data = await functions.fetchUser();
+	expect( data.name ).toEqual( 'Leanne Graham' );
+
+} );
