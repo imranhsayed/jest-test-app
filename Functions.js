@@ -9,6 +9,14 @@ const functions = {
 			user['lastName'] = 'Sayed';
 
 			return user;
+		},
+
+		addLoadValues: ( loadOne, loadTwo ) => {
+			return loadOne + loadTwo;
+		},
+
+		displayTeamName: ( teamName ) => {
+			return teamName;
 		}
 	};
 module.exports = functions;
