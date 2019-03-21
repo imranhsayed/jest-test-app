@@ -4,3 +4,7 @@ const reverseString = require( '../ReverseString' );
 test( 'reverseString function exists', () => {
 	expect( reverseString ).toBeDefined();
 } );
+
+test( 'String Reverses', () => {
+	expect( reverseString( 'Hello' ) ).toEqual( 'olleH' );
+} );
