@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1553162556008" clover="3.2.0">
+  <project timestamp="1553162556008" name="All files">
+    <metrics statements="18" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="11" coveredmethods="10" elements="29" coveredelements="27" complexity="0" loc="18" ncloc="18" packages="1" files="2" classes="2"/>
+    <file name="Functions.js" path="/Users/imransayed/jest-test-app/Functions.js">
+      <metrics statements="15" coveredstatements="14" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="9"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="2" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="11" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+      <line num="17" count="2" type="stmt"/>
+      <line num="21" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
+      <line num="29" count="1" type="stmt"/>
+      <line num="30" count="1" type="stmt"/>
+      <line num="31" count="0" type="stmt"/>
+      <line num="34" count="1" type="stmt"/>
+    </file>
+    <file name="ReverseString.js" path="/Users/imransayed/jest-test-app/ReverseString.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+    </file>
+  </project>
+</coverage>
